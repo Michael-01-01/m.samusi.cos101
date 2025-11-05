@@ -1,7 +1,7 @@
 // Rust program to calculate the area of a 
 // triangle for a given base and height
 
-use   std::io
+use   std::io;
 fn main() {
     let mut input1 = String::new();
     let mut input2 = String::new();
