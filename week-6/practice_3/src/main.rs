@@ -8,6 +8,6 @@ fn main() {
     let facaulty = "Facaulty of science and technology";
 
     //find and replace
-    let school = facaulty.replace("facaulty","School");
+    let school = facaulty.replace("Facaulty","School");
     println!("I am a student of the {}",school );
 }
