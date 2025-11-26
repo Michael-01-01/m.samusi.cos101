@@ -1,0 +1,3 @@
+Welcome to Rust programming
+
+Hello classThis is the appendage to the document.
