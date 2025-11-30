@@ -11,7 +11,7 @@ fn main() {
     file.write_all(message.as_bytes()).expect("Write failed");
     println!("\nData written to file.");
 
-    file = File::open("Welcome_message_txt").unwrap();
+    file = File::open("Welcome_message.txt").unwrap();
     let mut contents = String::new();
     file.read_to_string(&mut contents).unwrap();
     print!("{}",contents);
